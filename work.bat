@@ -1,0 +1,1 @@
+oc cp C:\Users\TEJENDRARANA\Desktop\Rana\Study\GIT_Clones\php-quotes $(oc get pods --no-headers -o custom-columns=POD:.metadata.name -l app=quotesdb):/tmp

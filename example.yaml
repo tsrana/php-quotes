@@ -44,7 +44,7 @@ objects:
       sourceStrategy:
         from:
           kind: ImageStreamTag
-          name: php:7.2
+          name: php:latest
           namespace: openshift
       type: Source
     successfulBuildsHistoryLimit: 5
@@ -191,7 +191,7 @@ objects:
         - quotesdb
         from:
           kind: ImageStreamTag
-          name: mysql:5.7
+          name: mysql:latest
           namespace: openshift
       type: ImageChange
 - apiVersion: v1
